@@ -1,12 +1,59 @@
-:root {
-  /* все що можна
+/*+колір основного тексту black ___--title-text-color: #212121; */
+/*+колір (акцент) лого,ссилок хедера,фону hero студії і портфоліо кнопки_
+--accent-color: #2196f3; */
+/*+друга частина тексту лого чорна!!! __--logo-black-color: #000000; */
+/*+вторинний колір cірий __--secondary-text-color: #757575; */
+
+/*+шрифт для логотипу ___--logo-font: "Raleway", sans-serif;*/
+/*+розмір шрифта логотипу____--logo-font-size: 26px; */
+/*+загальний шрифт __--text-font: "Roboto", sans-serif;*/
+/*+розмір шрифта для header i footer ___--primary-font-size: 14px; */
+/*+жирність шрифтів ___--bold-font-weight: 700; --medium-font-weight: 500; 
+--regular-font-weight: 400; --hero-font-weight: 900;*/
+
+/*+колір фону  header,тексту hero,footer фіз.адреса і карточок студіі і портф+кн.все.____
+ --primary-white-color: #ffffff;*/
+/*+колір фону  section hero і footer___--dark-background: #2F303A;*/
+/*+колір емейлу і тел в футері __--footer-text-color: rgba(255, 255, 255, 0.6); */
+/*--колір фону section2 features and 3 occupation-немає ___background: #E5E5E5;*/
+/*+колір фону секції наша команда і кнопок (rectangle)портфоліо ___
+--light-background: #f5f4fa; */
+
+/*
+      фігня на даний момент      
+для активної кнопки хз поки
+  --active-color: #87cefa;
+.hero-button:hover,
+.hero-button:focus
+  --secondary-accent-color: #188ce8;*/
+
+/* logo hover,focus-зміна кольору
+button заказать услугу ховер і фокус
+карточкі портфоліо ховер фокус */
+
+/* все що можна
     потім поміняти */
+:root {
+  --accent-color: #2196f3;
+  --logo-black-color: #000000;
+  --primary-white-color: #ffffff;
+  --dark-background: #2f303a;
+  --light-background: #f5f4fa;
+  --text-font: "Roboto", sans-serif;
+  --logo-font: "Raleway", sans-serif;
+  --logo-font-size: 26px;
+  --primary-font-size: 14px;
+  --bold-font-weight: 700;
+  --medium-font-weight: 500;
+  --regular-font-weight: 400;
+  --hero-font-weight: 900;
+  --title-text-color: #212121;
+  --secondary-text-color: #757575;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  /* головні кольори і тд
+/* головні кольори і тд
      що унаслідується */
+body {
+  font-family: var(--text-font);
 }
-
-/* по класам */
