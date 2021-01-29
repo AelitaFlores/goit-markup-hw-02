@@ -20,12 +20,6 @@
 /*+колір фону секції наша команда і кнопок (rectangle)портфоліо ___
 --light-background: #f5f4fa; */
 
-/*
-
-для активної кнопки хз поки
-  --active-color: #87cefa;
-
-
 /* logo hover,focus-зміна кольору
 button заказать услугу ховер і фокус
 карточкі портфоліо ховер фокус 
@@ -81,10 +75,12 @@ body {
 }
 .logo-link:hover,
 .logo-link:focus {
+  color: var(--accent-color);
   cursor: pointer;
 }
 
 /*=========Навігація===========*/
+
 .navigation-list-link,
 .navigation-list-link-current {
   font-weight: var(--medium-font-weight);
@@ -93,6 +89,11 @@ body {
   font-size: var(--primary-font-size);
   line-height: 1.143;
 }
+/* специфічність кольору */
+.navigation-list-link-current {
+  color: var(--accent-color);
+}
+
 .navigation-list-item:hover,
 .navigation-list-item:focus {
   color: var(--accent-color);
@@ -116,7 +117,8 @@ body {
 
 /*=========кінець Шапки===========*/
 
-/*=========Герой🦸===========*/
+/*=========main===========*/
+/*=========hero🦸===========*/
 .hero {
   background: var(--dark-background);
 }
@@ -161,22 +163,95 @@ body {
 }
 .features-text {
   font-size: var(--primary-font-size);
-  line-height: 1, 714;
+  line-height: 1.714;
   color: var(--secondary-text-color);
 }
 /*=========Чем мы занимаемся===========*/
 .occupation-title {
   font-weight: var(--bold-font-weight);
   font-size: 36px;
-  line-height: 1, 167;
+  line-height: 1.167;
+  text-align: center;
+}
+/* <!--Наша команда  --> */
+.team {
+  background: var(--light-background);
+}
+.team-title {
+  font-weight: var(--bold-font-weight);
+  font-size: 36px;
+  line-height: 1.167;
   text-align: center;
 }
 
-/*=========кінець🦸===========*/
+/* бекграунд в фігмі на карточках !!!!!
+.team-list-item {
+  background: var(--primary-white-color);
+} */
+.team-caption {
+  font-weight: var(--medium-font-weight);
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+}
+.team-subtitle {
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+/*=========кінець main===========*/
 
+/* <!-- Подвал --> */
+.footer {
+  background: var(--dark-background);
+}
+
+footer .logo-link {
+  color: var(--primary-white-color);
+}
+
+.address-link-name,
+.address-link {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: var(--primary-font-size);
+  line-height: 1.714;
+  letter-spacing: inherit;
+  color: var(--primary-white-color);
+}
+a.address-link {
+  color: var(--footer-text-color);
+}
+/* специфічність кольору */
+.address-link-name:hover,
+.address-link-name:focus {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+  cursor: pointer;
+}
+
+/* <!-- КонецПодвала --> */
+
+/*=========portfolio===========*/
+
+/* top-line-background: #FFFFFF; */
+
+////////
 /* для а і buton
 color: inherit; 
-font-family: inherit;
+
+vse but
+background: #2196F3;
+/* shadow-middle 
+
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 
 
 
@@ -190,7 +265,14 @@ font-family: inherit;
 
 
 
-color: #757575;
+
+
+
+
+
+
+
+
 
 
 
