@@ -83,7 +83,6 @@ body {
 .logo-link:hover,
 .logo-link:focus {
   color: var(--accent-color);
-  cursor: pointer;
 }
 
 /*=========Навігація===========*/
@@ -102,10 +101,9 @@ body {
   color: var(--accent-color);
 }
 
-.navigation-list-item:hover,
-.navigation-list-item:focus {
+.navigation-list-link:hover,
+.navigation-list-link:focus {
   color: var(--accent-color);
-  cursor: pointer;
 }
 /*=========КінецьНавігації===========*/
 
@@ -121,7 +119,6 @@ body {
 .contact-list-link:hover,
 .contact-list-link:focus {
   color: var(--accent-color);
-  cursor: pointer;
 }
 
 /*=========кінець Шапки===========*/
@@ -231,7 +228,7 @@ footer .logo-link {
 .address-link-name,
 .address-link {
   font-family: inherit;
-  font-style: inherit;
+  font-style: normal;
   font-weight: inherit;
   font-size: var(--primary-font-size);
   line-height: 1.714;
@@ -247,13 +244,11 @@ a.address-link {
 .address-link-name:hover,
 .address-link-name:focus {
   color: var(--accent-color);
-  cursor: pointer;
 }
 
 .address-link:hover,
 .address-link:focus {
   color: var(--accent-color);
-  cursor: pointer;
 }
 
 /* <!-- КонецПодвала --> */
@@ -310,7 +305,6 @@ a.address-link {
 }
 .portfolio-list-link:hover,
 .portfolio-list-link:focus {
-  cursor: pointer;
 }
 
 .portfolio-caption {
