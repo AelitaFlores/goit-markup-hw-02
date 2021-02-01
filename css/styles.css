@@ -102,7 +102,9 @@ body {
 }
 
 .navigation-list-link:hover,
-.navigation-list-link:focus {
+.contact-list-link:hover,
+.navigation-list-link:focus,
+.contact-list-link:focus {
   color: var(--accent-color);
 }
 /*=========КінецьНавігації===========*/
@@ -116,10 +118,10 @@ body {
   color: var(--secondary-text-color);
 }
 
-.contact-list-link:hover,
+/* .contact-list-link:hover, 
 .contact-list-link:focus {
   color: var(--accent-color);
-}
+} */
 
 /*=========кінець Шапки===========*/
 
